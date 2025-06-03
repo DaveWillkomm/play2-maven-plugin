@@ -79,7 +79,7 @@ Simplest project file:
 
         <plugins>
             <plugin>
-                <groupId>com.google.code.play2-maven-plugin</groupId>
+                <groupId>com.imanage.play2-maven-plugin</groupId>
                 <artifactId>play2-maven-plugin</artifactId>
                 <version>${project.version}</version>
                 <extensions>true</extensions>
@@ -90,7 +90,7 @@ Simplest project file:
             </plugin>
 
             <plugin>
-                <groupId>com.google.code.sbt-compiler-maven-plugin</groupId>
+                <groupId>com.imanage.sbt-compiler-maven-plugin</groupId>
                 <artifactId>sbt-compiler-maven-plugin</artifactId>
                 <version>${sbtCompilerPluginVersion}</version>
             </plugin>
@@ -250,7 +250,7 @@ Example with optional dependencies and configuration options:
 
         <plugins>
             <plugin>
-                <groupId>com.google.code.play2-maven-plugin</groupId>
+                <groupId>com.imanage.play2-maven-plugin</groupId>
                 <artifactId>play2-maven-plugin</artifactId>
                 <version>${project.version}</version>
                 <extensions>true</extensions>
@@ -282,7 +282,7 @@ Example with optional dependencies and configuration options:
             </plugin>
 
             <plugin>
-                <groupId>com.google.code.sbt-compiler-maven-plugin</groupId>
+                <groupId>com.imanage.sbt-compiler-maven-plugin</groupId>
                 <artifactId>sbt-compiler-maven-plugin</artifactId>
                 <version>${sbtCompilerPluginVersion}</version>
             </plugin>

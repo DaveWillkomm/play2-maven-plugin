@@ -39,7 +39,7 @@ Add `fileWatchService` parameter with value `polling` to plugin configuration se
         <plugins>
             ...
             <plugin>
-                <groupId>com.google.code.play2-maven-plugin</groupId>
+                <groupId>com.imanage.play2-maven-plugin</groupId>
                 <artifactId>play2-maven-plugin</artifactId>
                 <version>${project.version}</version>
                 <extensions>true</extensions>
@@ -71,7 +71,7 @@ of the value of `fileWatchService` plugin configuration parameter or `play2.file
         <plugins>
             ...
             <plugin>
-                <groupId>com.google.code.play2-maven-plugin</groupId>
+                <groupId>com.imanage.play2-maven-plugin</groupId>
                 <artifactId>play2-maven-plugin</artifactId>
                 <version>${project.version}</version>
                 <extensions>true</extensions>

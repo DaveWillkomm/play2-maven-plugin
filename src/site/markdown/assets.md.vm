@@ -85,7 +85,7 @@ Maven configuration is simple. Add static assets as resources (as in previous sc
         <plugins>
             ...
             <plugin>
-                <groupId>com.google.code.play2-maven-plugin</groupId>
+                <groupId>com.imanage.play2-maven-plugin</groupId>
                 <artifactId>play2-maven-plugin</artifactId>
                 <version>${project.version}</version>
                 <extensions>true</extensions>
